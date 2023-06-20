@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #d2d2d2; */
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-page {
+    height: 100vh;
+}
+
+header {
+    min-height: 80px;
+    padding: 10px 20px 0;
+}
+
+header span.logo_my_name {
+    float: left;
+    margin-top: 0px;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 0 5px;
+    margin: 0 10px;
+    width: 100px;
+}
+
+header ul li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ff4e00;
+    color: #ff4e00;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    z-index: 1000;
+    background-color: #000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 3px;
+    padding: 8px 15px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.25s;
+}
+
+nav ul li a:hover {
+    color: orange;
+    padding-bottom: 3px;
+    border-bottom: 1px solid orange;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    /* margin: 0 auto; */
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.main-img {
+    height: 120px;
+    background-color: #c9bdb3;
+}
+
+.profile-box {
+    min-width: 280px;
+    position: relative;
+    top: 80px;
+    left:20px;
+    width: 25%;
+    padding: 40px 25px 80px;
+    
+    background-color: rgb(245, 227, 214);
+    border-radius: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.profile-pic figure img {
+    width: 300px;
+}
+
+.profile-pic figcaption {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic figure img {
+    width: 190px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    margin: auto;
+}
+
+.profile-content {
+    position: relative;
+    min-width: 500px;
+    top: 10px;
+    left: 400px;
+    width: 60%;
+    height: 450px;
+    padding: 10px 25px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.c-font1 {
+    font-size: 1.85rem;
+    font-weight: bold;
+}
+
+.c-font2 {
+    font-size: 1.00rem;
+    font-weight: normal;
+}
+
+.gray-back {
+    background-color: #f2f2f2;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    /* box-sizing 에 의한 크기 고정 */
+    overflow: hidden;
+    /*이거는 배경색상 적용 되지 않을 경우 */
+}
+
+.back-image1,
+.back-image2 {
+    background-size: cover;
+    /* background-repeat: repeat;
+    overflow: hidden; */
+    background-position: center;
+}
+
+.back-image1 {
+    background-image: url("../imgs/jinwoo003.jpeg");
+}
+
+.back-image2 {
+    background-image: url("../imgs/jinwoo002.jpeg");
+}
+
+.page {
+    padding-top:50px;
+}
+
+.page h1 {
+    padding: 0.5em;
+    color: #fff;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, .55);
+}
+
+.page .inner {
+    min-height: 70vh;
+    background-color: rgba(255, 255, 255, .95);
+    padding: 1em 2em;
+    color: #000;
+}
+
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footlogo {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer ul li a:hover {
+    color: orange;
+}
